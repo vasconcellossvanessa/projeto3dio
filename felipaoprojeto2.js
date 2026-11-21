@@ -1,5 +1,5 @@
-let vitorias = 50
-let derrotas = 20
+let vitorias = 300
+let derrotas = 15
 
 function calcularSaldo(vitorias, derrotas) {
     let resultado = vitorias - derrotas;
