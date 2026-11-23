@@ -1,4 +1,5 @@
-
+let vitorias = 200;
+let derrotas = 50;
 
 function calcularSaldo(vitorias, derrotas) {
     let resultado = vitorias - derrotas;
@@ -17,7 +18,7 @@ for (let i = 0; i < 1; i++) {
         nivel = "Prata";
     } else if (saldoVitorias <= 80) {
         nivel = "Ouro";
-    } else if (saldoVitorias<= 90) {
+    } else if (saldoVitorias <= 90) {
         nivel = "Diamante";
     } else if (saldoVitorias <= 100) {
         nivel = "Lendário";
@@ -25,6 +26,5 @@ for (let i = 0; i < 1; i++) {
         nivel = "Imortal";
     }
 
-
-    console.log("O Herói tem de saldo " + saldoVitorias + newLocal + nivel);
+    console.log ("O Herói tem salvo de vitórias de " + saldoVitorias + " e está no nível de " + nivel)
 }
